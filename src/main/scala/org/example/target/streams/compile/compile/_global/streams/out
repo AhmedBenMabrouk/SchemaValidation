@@ -1,0 +1,46 @@
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:22:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.flink.streaming.api.scala._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:23:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:24:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:25:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.flink.streaming.util.serialization.JSONKeyValueDeserializationSchema[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:26:12: object everit is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.everit.json.schema.loader.SchemaLoader[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:27:12: object everit is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.everit.json.schema.Schema[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:28:12: object json is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.json.JSONObject[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:29:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.flink.api.common.serialization.SimpleStringSchema[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:33:15: not found: value StreamExecutionEnvironment[0m
+[0m[[0m[31merror[0m] [0m[0m    val env = StreamExecutionEnvironment.getExecutionEnvironment[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:40:29: not found: type FlinkKafkaConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m    val kafkaConsumer = new FlinkKafkaConsumer([0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:42:11: not found: type JSONKeyValueDeserializationSchema[0m
+[0m[[0m[31merror[0m] [0m[0m      new JSONKeyValueDeserializationSchema(false),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:49:29: not found: type FlinkKafkaProducer[0m
+[0m[[0m[31merror[0m] [0m[0m    val kafkaProducer = new FlinkKafkaProducer([0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:51:11: not found: type SimpleStringSchema[0m
+[0m[[0m[31merror[0m] [0m[0m      new SimpleStringSchema(),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:58:28: not found: type JSONObject[0m
+[0m[[0m[31merror[0m] [0m[0m    val schemaObject = new JSONObject(schemaJson)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloud_user/scala/validation/src/main/scala/org/example/Job.scala:59:18: not found: value SchemaLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val schema = SchemaLoader.load(schemaJson)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m

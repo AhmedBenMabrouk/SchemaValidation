@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0mrunning (fork) org.example.Main [0m
+[0m[[0m[31merror[0m] [0m[0mSLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m
+[0m[[0m[31merror[0m] [0m[0mSLF4J: Defaulting to no-operation (NOP) logger implementation[0m
+[0m[[0m[31merror[0m] [0m[0mSLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m
+[0m[[0m[31merror[0m] [0m[0mWARNING: An illegal reflective access operation has occurred[0m
+[0m[[0m[31merror[0m] [0m[0mWARNING: Illegal reflective access by org.apache.flink.api.java.ClosureCleaner (file:/home/cloud_user/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/flink/flink-core/1.14.6/flink-core-1.14.6.jar) to field java.lang.String.value[0m
+[0m[[0m[31merror[0m] [0m[0mWARNING: Please consider reporting this to the maintainers of org.apache.flink.api.java.ClosureCleaner[0m
+[0m[[0m[31merror[0m] [0m[0mWARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations[0m
+[0m[[0m[31merror[0m] [0m[0mWARNING: All illegal access operations will be denied in a future release[0m
+[0m[[0m[33mwarn[0m] [0m[0mRun canceled.[0m
